@@ -1,3 +1,13 @@
+
+-- Create database if it doesn't exist
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+
+-- Use the database
+USE alx_book_store;
+
+-- Then the table creation scripts follow...
+
+
 CREATE TABLE IF NOT EXISTS Authors (
     author_id INT PRIMARY KEY,
     author_name VARCHAR(215) NOT NULL
